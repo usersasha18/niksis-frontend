@@ -1,0 +1,52 @@
+#section-contacts {
+    display: flex;
+    gap: 5rem;
+}
+
+
+input, textarea {
+    outline: none;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-bottom: 1.5px solid black;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.form-button {
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(141, 141, 141, 0.431);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}   
+
+.tel-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tel-item > a {
+    color: black;
+    text-decoration: none;
+    transition: all .3s linear;
+}
+
+.tel-item > a:hover {
+    color: red;
+}
+
+.address-text {
+    display: flex;
+    align-items: center;
+}
+
+
+

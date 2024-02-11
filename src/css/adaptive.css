@@ -1,0 +1,92 @@
+
+
+@media screen and (max-width: 841px) {
+    #section-contacts {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .cards {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .bot-header-section {
+        padding: 2rem 0;
+        font-size: 15px;
+        width: 100%;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+
+@media screen and (max-width: 561px) {
+    form {
+        width: 100%;
+    }
+    .tabContent  > h1{
+        font-size: 20px;
+    }
+    .tabs-wrap {
+        gap: 2rem;
+    }
+}
+
+
+.button-icon {
+    display: none;
+}
+
+.hidden-link {
+    display: none;
+}
+@media screen and (max-width: 520px) {
+    .button-icon {
+        display: block;
+        cursor: pointer;
+    }
+    .navigation {
+        display: none;
+    }
+
+    .tabs-content {
+        position: relative;
+        width: 60%;
+    }
+    
+    .tabContent {
+        width: 100%;
+        transition: all .3s linear
+    }
+    .hidden-link {
+        display: block;
+    }
+    .hidden-link > a {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .tabs-wrap {
+        flex-direction: column;
+    }
+    .tabs-content {
+        position: relative;
+        width: 100%;
+    }
+
+    .tabs {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}

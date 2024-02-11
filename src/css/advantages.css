@@ -1,0 +1,18 @@
+.section-advantages {
+    padding-bottom: 1.5rem;
+}
+
+.inner-section-advantages {
+    background-color: rgb(255, 182, 47);
+    box-shadow: 0 10px 20px rgba(255, 157, 11, 0.52);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.advantages-text {
+    color: white;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+

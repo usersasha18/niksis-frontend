@@ -1,0 +1,131 @@
+/* header */
+.header {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.inner-header {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 182, 47);
+    box-shadow: 0 10px 20px rgba(255, 157, 11, 0.648);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.navigation > a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-logo > a {
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.bot-header-section {
+    padding: 2rem 0 ;
+    font-size: 23px;
+    width: 800px;
+}
+
+
+.bot-header-description {
+    font-weight: 200;
+}
+
+.bot-header-button {
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+
+    cursor: pointer;
+}
+
+.text-box {
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+}
+
+.btn {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.285);
+}
+
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+

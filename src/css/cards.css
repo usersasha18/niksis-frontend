@@ -1,0 +1,16 @@
+.card-title {
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card-item {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(165, 165, 165, 0.497);
+} 

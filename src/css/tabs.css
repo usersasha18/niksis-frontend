@@ -1,0 +1,55 @@
+.tabs {
+    position: relative;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.tab {
+    font-weight: 500;
+}
+
+.tabs-wrap {
+    gap: 4rem;
+    display: flex;
+
+}
+
+
+.pressed {
+    font-weight: 700;
+    border-radius: 7px;
+    color: white;
+    background-color: red;
+    height: auto;
+}
+
+.tabs-content {
+    position: relative;
+    width: 60%;
+}
+
+.tabContent {
+    position: absolute;
+    top: 0;
+    left: 1000px;
+    opacity: 0;
+    width: 100%;
+    transition: all .3s linear
+}
+
+.open {
+    opacity: 1;
+    left: 0;
+}
+
+
+.tab {
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s linear;
+    margin-bottom: 0.5rem;
+    padding: 5px;
+}

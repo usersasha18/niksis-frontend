@@ -1,0 +1,25 @@
+.inner-footer {
+    background-color: black;
+    padding: 20px;
+}
+
+.inner-footer > .footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-title {
+    color: white;
+
+    margin: 0;
+}
+
+.footer-class >  a{
+    color:white;
+}
