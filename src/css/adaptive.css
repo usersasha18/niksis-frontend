@@ -89,4 +89,16 @@ form {
         flex-wrap: wrap;
         flex-direction: row;
     }
+    .tabContent {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        transition: all .3s linear
+    }
+    .open {
+        opacity: 1;
+        left: 0;
+    }
 }
